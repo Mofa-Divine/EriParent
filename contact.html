@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Eritrean Parent Support Network</title>
+    <meta name="description" content="Get in touch with the Eritrean Parent Support Network for advocacy services, resources, and support for your child's educational needs.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html" class="logo">
+              <img src="./assets/eritrean-parents-logo-nav.png" alt="Eritrean Parent Support Network" class="logo-img">
+              <span class="logo-text"></span>
+            </a>
+            <div class="nav-menu">
+              <ul class="nav-list">
+                <li><a href="index.html" class="nav-list active">Home</a></li>
+                <li><a href="advocacy.html" class="nav-list">Advocacy</a></li>
+                <li><a href="resource.html" class="nav-list">Resources</a></li>
+                <li><a href="events.html" class="nav-list">Events</a></li>
+                <li><a href="about.html" class="nav-list">About Us</a></li>
+                <li><a href="contact.html" class="nav-list">Contact</a></li>
+              </ul>
+              <div class="language-toggle">
+                <button class="btn-language active" data-lang="en">EN</button>
+                <button class="btn-language" data-lang="ti">ትግርኛ</button>
+              </div>
+              <button class="btn btn-primary nav-cta">Get Support</button>
+            </div>
+            <button class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </nav>
+        </div>
+      </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding-top: 120px; padding-bottom: 4rem; background: linear-gradient(135deg, #f5f3ff 0%, #eefcf8 100%); position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>We're here to support you. Reach out to learn more about our services or to request advocacy support for your child.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>If you have questions about our services or need support advocating for your child's educational needs, we're here to help. Contact us by phone, email, or using the form on this page.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Our Office</h3>
+                            <p>123 Community Center Ave, Suite 101<br>City, State ZIP</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                            <p class="text-muted">Monday to Friday, 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@eritreanparentsupport.org</p>
+                            <p class="text-muted">We aim to respond within 24-48 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div>
+                            <h3>Language Support</h3>
+                            <p>Services available in English, Tigrinya, and Arabic</p>
+                            <p>Please let us know if you need interpretation in another language</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons" style="margin-top: 30px;">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <div class="success-message">Your message has been sent successfully. We'll get back to you soon!</div>
+                    
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Preferred Language</label>
+                            <div>
+                                <label style="margin-right: 15px;">
+                                    <input type="radio" name="language" value="english" checked> English
+                                </label>
+                                <label style="margin-right: 15px;">
+                                    <input type="radio" name="language" value="tigrinya"> Tigrinya
+                                </label>
+                                <label>
+                                    <input type="radio" name="language" value="arabic"> Arabic
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">How did you hear about us?</label>
+                            <select class="form-control" name="referral_source">
+                                <option value="">-- Please select --</option>
+                                <option value="friend">Friend or Family</option>
+                                <option value="school">School Referral</option>
+                                <option value="event">Community Event</option>
+                                <option value="search">Internet Search</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visit Our Office</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <!-- Map placeholder - in a real implementation, this would be replaced with an actual map embed -->
+                    <div style="background-color: #eee; height: 350px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                        <i class="fas fa-map-marked-alt" style="font-size: 50px; color: #c84c11;"></i>
+                        <p style="margin-left: 15px;">Interactive Map Would Display Here</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Office Hours</h3>
+                    <p><strong>Monday to Friday:</strong> 9:00 AM - 5:00 PM</p>
+                    <p><strong>Saturday:</strong> 10:00 AM - 2:00 PM (By appointment only)</p>
+                    <p><strong>Sunday:</strong> Closed</p>
+                    
+                    <h3>Accessibility</h3>
+                    <p>Our office is wheelchair accessible with accessible parking spaces available. If you require any specific accommodations for your visit, please let us know in advance so we can better serve you.</p>
+                    
+                    <h3>Public Transportation</h3>
+                    <p>Our office is accessible via public transportation:</p>
+                    <ul>
+                        <li>Bus Routes: 12, 15, and 23 (stop directly in front of building)</li>
+                        <li>Subway: Green Line (Community Center Station, 2 blocks away)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+<section class="section section-alt">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Community in Action</h2>
+            <p class="section-subtitle">Moments from our events and activities</p>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic1.png" 
+                     alt="Parent workshop session" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Parent Advocacy Workshop</h3>
+                    <p>March 2023</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic2.png" 
+                     alt="Community celebration" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Cultural Celebration Day</h3>
+                    <p>May 2023</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic3.png" 
+                     alt="School meeting" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>School Council Meeting</h3>
+                    <p>September 2023</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic4.png" 
+                     alt="Educational seminar" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Educational Rights Seminar</h3>
+                    <p>November 2023</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic5.png" 
+                     alt="Family picnic" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Annual Family Picnic</h3>
+                    <p>July 2023</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic6.png" 
+                     alt="Volunteer training" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Volunteer Training Session</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic7.png" 
+                     alt="Volunteer training" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Volunteer Training Session</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic8.png" 
+                     alt="Volunteer training" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Volunteer Training Session</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/about/about_pic9.png" 
+                     alt="Volunteer training" class="gallery-img">
+                <div class="gallery-caption">
+                    <h3>Volunteer Training Session</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 40px;">
+            <a href="events.html" class="btn btn-primary">View More Events</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Volunteer Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Volunteer With Us</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <img src="https://pixabay.com/get/g64eabf452bcaef1e1207636de8210ffd4f6a45d1182e3b568089f06404255a8fe20bd234b7930cbd87d364424a5dbf6e2be5a81288c69a8c71fbc6441342139f_1280.jpg" alt="Community gathering" class="card-img">
+                </div>
+                <div class="col">
+                    <p>We're always looking for dedicated volunteers to help support our mission. If you're passionate about education, advocacy, and supporting the Eritrean community, we'd love to have you join our team.</p>
+                    
+                    <h3>Volunteer Opportunities</h3>
+                    <ul>
+                        <li>Event planning and support</li>
+                        <li>Tutoring and homework help</li>
+                        <li>Translation and interpretation services</li>
+                        <li>Administrative support</li>
+                        <li>Mentoring parents in advocacy skills</li>
+                    </ul>
+                    
+                    <p>To learn more about volunteer opportunities, please contact our Volunteer Coordinator at volunteer@eritreanparentsupport.org or call (555) 123-4567 ext. 3.</p>
+                    
+                    <a href="#" class="btn">Download Volunteer Application</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to receive updates about upcoming events, resources, and advocacy opportunities.</p>
+            
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" id="newsletter-email" class="form-control" placeholder="Your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>The Eritrean Parent Support Network is dedicated to empowering Eritrean parents to effectively advocate for their children's educational needs through resources, community support, and advocacy services.</p>
+                    
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                    
+                        <li><a href="index.html" class="nav-link active">Home</a></li>
+                        <li><a href="advocacy.html" class="nav-link">Advocacy</a></li>
+                        <li><a href="resource.html" class="nav-link">Resources</a></li>
+                        <li><a href="events.html" class="nav-link">Events</a></li>
+                        <li><a href="about.html" class="nav-link">About Us</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Community Center Ave, Suite 101</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@eritreanparentsupport.org</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span class="current-year">2023</span> Eritrean Parent Support Network. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/form-validation.js"></script>
+</body>
+</html>

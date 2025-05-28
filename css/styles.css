@@ -1,4 +1,5 @@
-/* Base Styles & Variables */
+@import "tailwindcss";
+ /* Base Styles & Variables */
 :root {
   /* Color System */
   --primary-50: #f5f3ff;

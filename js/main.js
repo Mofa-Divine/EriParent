@@ -1,3 +1,4 @@
+
 // DOM Elements
 const header = document.getElementById('header');
 const hamburger = document.querySelector('.hamburger');
